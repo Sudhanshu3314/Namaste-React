@@ -1,0 +1,42 @@
+// npm is a package manager which we will install sometimes our project dependent on packages and that npm will take manage of version of packages
+
+// package.json is a configuration for npm
+
+// In http there is a policy called as same origin policy in which frontend and backend must be deployed at same origin(domain) then only data can be shared very smoothly
+
+// But , new concepts come into existence 
+// i.e. (C0RS) => Crossorigin resource sharing which allow the two different domain (origin ) to share their data with each other which is not possible because http policy i.e. SOP ( same origin policy )
+
+
+/* This is a react source file which is a father of react
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+ */
+
+
+ /* 
+
+ Parcel => Package
+ 1) Dev Build
+ 2) Local Server
+ 3) HMR => Hot Module Replacement ( Automatically refreshing the pages after saving the codes )
+ 4) File Watching Algorithm -> Written in C++ which always examine the code after a single change of code which make possible i.e. HMR
+ 5) Caching -> Faster Builds ( Program execution )
+ 6) Image Optimisation => This will reload fast loading of image in browser
+ 7) Parcel will bundle the files at one place (Minification) when we will create production base project
+ 8) Compressing the code => This will cut out the comments and white spaces from code for faster execution
+ 9) In short from all above this point , parcel such a beast which can transform the code in optimised code for faster execution of program in frontend on web browser
+10) Consistent Hashing
+11) Code splitting
+12) Differential Bundling -> ( This allows to support web application execution in older version of browsers as well )
+13) Diagnostics error
+14) Error handling ( Good visual of errors)
+15) https -> Give this feature also
+16) Tree Shaking Algorithm -> Parcel is too much intelligent that it can remove the unused code for Optimisation of code and unused function from code
+
+Parcel Documentation ==> https://parceljs.org/
+ 
+ */
